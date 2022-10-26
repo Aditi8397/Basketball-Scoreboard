@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+}
+
+#home-title {
+	position: absolute;
+	width: 149px;
+	height: 36px;
+	left: 85px;
+	top: 68px;
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 36px;
+	text-align: center;
+	color: #EEEEEE;
+}
+
+#guest-title {
+	position: absolute;
+	width: 149px;
+	height: 36px;
+	left: 340px;
+	top: 68px;
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 36px;	
+	text-align: center;
+	color: #EEEEEE;
+}
+
+#home-score {
+	position: absolute;
+	width: 155px;
+	height: 120px;
+	left: 62px;
+	top: 125px;
+	background: #080001;
+	border-radius: 5px;
+	font-family: 'Cursed Timer ULiL';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 90px;
+	line-height: 127px;
+	text-align: center;
+	color: #F94F6D;
+}
+
+#home-score-btn-1 {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 82px;
+	top: 271px;
+}
+
+#home-score-btn-2 {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 136px;
+	top: 271px;
+}
+
+#home-score-btn-3 {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 192px;
+	top: 271px;
+}
+
+#guest-score {
+	position: absolute;
+	width: 155px;
+	height: 120px;
+	left: 318px;
+	top: 125px;
+	background: #080001;
+	border-radius: 5px;
+	font-family: 'Cursed Timer ULiL';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 90px;
+	line-height: 127px;
+	text-align: center;
+	color: #F94F6D;
+}
+
+#guest-score-btn-1 {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 337px;
+	top: 271px;
+}
+
+#guest-score-btn-2 {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 391px;
+	top: 271px;
+}
+
+#guest-score-btn-3 {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 447px;
+	top: 271px;
+}
+
+#newGame-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 9px 17px 9px 15px;
+	gap: 12px;
+	position: absolute;
+	width: 191px;
+	height: 42px;
+	left: 180px;
+	top: 400px;
+	background: #10B981;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+	color: #FFFFFF;
+}
